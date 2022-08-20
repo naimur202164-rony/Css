@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        display: gird;
+        min-height: 100vh;
+        background: #222;
+      }
+
+      .container {
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+        grid-template-rows: repeat(7, 1fr);
+        gap: 5px;
+        margin: 10px;
+      }
+
+      .container .card {
+        position: relative;
+        background: #333;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+      }
+
+      .container .card:hover {
+        background: pink;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <h2>Code Hack 1</h2>
+      </div>
+      <div class="card">
+        <h2>Code Hack 2</h2>
+      </div>
+      <div class="card">
+        <h2>Code Hack 3</h2>
+      </div>
+      <div class="card">
+        <h2>Code Hack 4</h2>
+      </div>
+      <div class="card">
+        <h2>Code Hack 5</h2>
+      </div>
+      <div class="card">
+        <h2>Code Hack 6</h2>
+      </div>
+      <div class="card">
+        <h2>Code Hack 7</h2>
+      </div>
+      <div class="card">
+        <h2>Code Hack 8</h2>
+      </div>
+      <div class="card">
+        <h2>Code Hack 9</h2>
+      </div>
+      <div class="card">
+        <h2>Code Hack 10</h2>
+      </div>
+      <div class="card">
+        <h2>Code Hack 11</h2>
+      </div>
+      <div class="card">
+        <h2>Code Hack 12</h2>
+      </div>
+      <div class="card">
+        <h2>Code Hack 13</h2>
+      </div>
+      <div class="card">
+        <h2>Code Hack 14</h2>
+      </div>
+    </div>
+  </body>
+</html>
